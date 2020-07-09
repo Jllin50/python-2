@@ -51,7 +51,7 @@ room['treasure'].s_to = room['narrow']
 #
 # If the user enters "q", quit the game.
 
-player = Player(input('Adventurer! What is your name?: '), room['outside'])
+player = Player(input('What is your name? '), room['outside'])
 
 def player_welcome():
     print(f'Welcome {player.name}\nHave fun! Use n, e, s, w to navigate. \nIf you can not continue, enter "q".')
